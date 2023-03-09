@@ -22,10 +22,10 @@
 
 The portfolio webstie comprises several sections including: Overview, Work Experience, Projects and Contacts.
 
-  The live app can be accessed [here](https://cayman-dall-e.com/).
+  The live app can be accessed [here](cayman-developer-portfolio.netlify.app/).
 
  <p align="center">
-    <img alt="3D Portfolio" src="https://cayman-developer-portfolio.netlify.app/">
+    <img alt="3D Portfolio" src="https://github.com/caymanh/3d-portfolio/blob/main/src/assets/3d-portfolio.png">
 </p>
 
   ### Technology
