@@ -25,7 +25,7 @@ The portfolio webstie comprises several sections including: Overview, Work Exper
   The live app can be accessed [here](https://cayman-dall-e.com/).
 
  <p align="center">
-    <img alt="3D Portfolio" src="https://github.com/caymanh/ai-image-generator/blob/main/client/src/assets/AI%20Image%20Generator%201.png">
+    <img alt="3D Portfolio" src="https://github.com/caymanh/3d-portfolio/blob/main/src/assets/3d-portfolio.png">
 </p>
 
   ### Technology
