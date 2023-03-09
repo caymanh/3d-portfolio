@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,15 +13,14 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  mastercard,
+  tvo,
+  diglit,
+  stealth,
   threejs,
+  cocktail,
+  dalle,
+  music,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +40,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Product Management",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Product Marketing",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Management Consulting",
     icon: creator,
   },
 ];
@@ -71,10 +69,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -108,99 +102,68 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Product Marketing Manager",
+    company_name: "Stealth Startup",
+    icon: stealth,
+    iconBg: "#FFFFFF",
+    date: "April 2022 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed go-to-market strategies for financial services products by performing user research, competitive analysis, and customer segmentation, developing product positioning and messaging, and leading the marketing team to implement campaigns to grow Monthly Transacting Users",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Product Manager",
+    company_name: "Mastercard",
+    icon: mastercard,
+    iconBg: "#FFFFFF",
+    date: "Jan 2022 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Drove commercialization of marketing products by partnering with Sales and Analytics teams to identify customer needs, develop a P4P pricing strategy to resolve customer pain point of high upfront costs, and bundle product suites to meet customer needs",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Web Production Artist",
+    company_name: "TVO",
+    icon: tvo,
+    iconBg: "#FFFFFF",
+    date: "May 2021 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed layout and arrangement of graphics for online courses using HTML and CSS by incorporating responsive web design and ensuring principles of inclusivity and accessibility were maintained, contributing to the completion of educational courses",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Developer",
+    company_name: "DigLit",
+    icon: diglit,
+    iconBg: "#FFFFFF",
+    date: "March 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built front-end React components for a volunteer scheduling application by adding functionality to display a popup card when the user interacts with the webpage",
+      "Developed and executed unit tests for web applications using Cypress to identify software",
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Associate Managing Consultant",
+    company_name: "Mastercard",
+    icon: mastercard,
+    iconBg: "#FFFFFF",
+    date: "August 2020 - December 2021",
+    points: [
+      "Oversaw marketing programs to drive activation and reactivation of credit cardholders through merchant partnerships, collaborated with the Analytics team to identify target customer segments, developed A/B testing strategy for offer constructs, and liaised with agencies to create campaigns",
+      "Led workstream to analyze financial institution's credit card portfolio using propensity model, identified customer segments likely to adopt new card product, and developed strategy to drive product adoption",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Image Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that enables users to generate an image via OpenAI's DALL-E model and share it with the community.",
     tags: [
       {
         name: "react",
@@ -211,55 +174,55 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dalle,
+    source_code_link: "https://github.com/caymanh/ai-image-generator",
   },
   {
-    name: "Job IT",
+    name: "Music App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Music application that enables users to search for songs, play music, and discover the latest hits.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: music,
+    source_code_link: "https://github.com/caymanh/music-app",
   },
   {
-    name: "Trip Guide",
+    name: "Cocktail Recipe",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that generates cocktail recipes based on user preferences via a Cocktail API.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cocktail,
+    source_code_link: "https://github.com/nsuroghon/5-o-Clock-Somewhere",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
