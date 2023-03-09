@@ -24,9 +24,9 @@ import tvo from "./company/tvo.png";
 import stealth from "./company/stealth.jpg";
 import diglit from "./company/diglit.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dalle from "./dalle.png";
+import music from "./music.png";
+import cocktail from "./cocktail.png";
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   tvo,
   stealth,
   diglit,
-  carrent,
-  jobit,
-  tripguide,
+  cocktail,
+  music,
+  dalle,
 };
