@@ -49,7 +49,7 @@ const About = () => {
       >
         I'm a Software Engineer with experience in JavaScript, and
         expertise in frameworks like React, Express and Node.js. My background
-        in Product enables me to empathize with users to
+        in Product and Consulting enables me to empathize with users to
         understand their pain points and create solutions that meet their needs.
       </motion.p>
 

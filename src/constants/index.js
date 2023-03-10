@@ -143,7 +143,7 @@ const experiences = [
     date: "March 2021 - July 2021",
     points: [
       "Built front-end React components for a volunteer scheduling application by adding functionality to display a popup card when the user interacts with the webpage",
-      "Developed and executed unit tests for web applications using Cypress to identify software",
+      "Developed and executed unit tests for web applications using Cypress to identify software issues",
     ],
   },
   {
